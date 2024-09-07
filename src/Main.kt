@@ -1,3 +1,5 @@
 fun main() {
-    println("Hello World!")
+    var str = "kotlin2023course"
+    var result = str.filter { it.isDigit()}
+    println(result.count())
 }
